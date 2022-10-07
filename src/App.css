@@ -36,3 +36,171 @@
     transform: rotate(360deg);
   }
 }
+@keyframes design {
+  0% {
+    opacity: 0;
+    font-size: 5px;
+    transform: translateX(200px);
+  }
+  50% {
+    opacity: 0.5;
+    font-size: 10px;
+    transform: translateX(-90px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.paradiv {
+  background-color: #282c34;
+  font-size: 25px;
+  padding: 2px;
+  width: 235px;
+  margin-left: 525px;
+  border-radius: 10px;
+  color: #61dafb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h1 {
+  background-color: tomato;
+  color: #282c34;
+  width: 200px;
+  margin-left: 525px;
+  border-radius: 10px;
+  border: 10px solid #61dafb;
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(53, 50, 58);
+  background-size: 500px 700px;
+}
+.newdiv {
+  background-color: tomato;
+  border-radius: 10px;
+  width: 850px;
+  color: #282c34;
+  margin-left: 200px;
+  border: 15px solid darkcyan;
+  margin-top: 20px;
+}
+.username {
+  outline: none;
+  border-bottom: 50px solid grey;
+  width: 300px;
+  font-size: 20px;
+  border: none;
+  margin-left: 55px;
+}
+h5 {
+  margin-bottom: 0;
+  margin-right: 20rem;
+}
+.formdiv {
+  background-color: white;
+  width: 500px;
+  margin-left: 450px;
+  border-radius: 10px;
+  margin-top: 60px;
+  box-shadow: 15px 15px 15px 0px black;
+}
+.login {
+  padding: 20px;
+  animation-name: design;
+  animation-duration: 2s;
+}
+.passworddiv {
+  margin-top: 25px;
+}
+.password {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.forgotpassword {
+  margin-left: 350px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  color: black;
+}
+.forgotpassword:hover {
+  color: #282c34;
+}
+.forgotpassword:active {
+  color: burlywood;
+}
+.btn {
+  font-size: 30px;
+  width: 350px;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  background-color: green;
+}
+.btn:active {
+  background-color: #282c34;
+}
+.myclass {
+  margin-top: 50px;
+}
+.facebook {
+  margin-bottom: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.fbicon {
+  font-size: 50px;
+  color: darkblue;
+}
+.twitter {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.twitterlogo {
+  font-size: 50px;
+  background-color: #61dafb;
+  border-radius: 5px;
+}
+.gmail {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.gmaillogo {
+  font-size: 50px;
+  background-color: tomato;
+  border-radius: 5px;
+}
+
+.using {
+  margin-top: 100px;
+  margin-left: 210px;
+  margin-bottom: 10px;
+}
+.last {
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  width: 250px;
+}
+.last:hover {
+  background-color: green;
+}
+.last:active {
+  background-color: #282c34;
+}
