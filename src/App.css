@@ -204,3 +204,10 @@ h5 {
 .last:active {
   background-color: #282c34;
 }
+.flex-container {
+  display: flex;
+  background-color: dodgerblue;
+}
+.flex-container > div {
+  background-color: solid orange;
+}
