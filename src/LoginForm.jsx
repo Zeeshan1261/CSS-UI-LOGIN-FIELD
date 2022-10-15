@@ -2,6 +2,7 @@ import React from "react";
 import { ImFacebook2 } from "react-icons/im";
 import { IoLogoTwitter } from "react-icons/io";
 import { SiGmail } from "react-icons/si";
+// comments
 function Loginform({ data }) {
   return (
     <>
