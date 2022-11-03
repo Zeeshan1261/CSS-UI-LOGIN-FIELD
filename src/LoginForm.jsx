@@ -2,7 +2,6 @@ import React from "react";
 import { ImFacebook2 } from "react-icons/im";
 import { IoLogoTwitter } from "react-icons/io";
 import { SiGmail } from "react-icons/si";
-// comments
 function Loginform({ data }) {
   return (
     <>
@@ -16,7 +15,7 @@ function Loginform({ data }) {
         ></input>{" "}
         <div className="passworddiv">
           {" "}
-          <h5>password</h5>
+          <h5>Password</h5>
           <input
             className="password"
             placeholder="EnterPassword"
